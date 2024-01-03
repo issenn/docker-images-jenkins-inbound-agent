@@ -1,0 +1,9 @@
+version: "3.9"
+
+name: "jenkins-inbound-agent"
+
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
